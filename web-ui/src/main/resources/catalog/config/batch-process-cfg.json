@@ -1,4 +1,10 @@
-{"config": [{
+{"config": [
+  {
+    "key": "gla_wms_gemini",
+    "type": "fixed-params",
+    "params": []
+  },
+  {
     "key": "url-host-relocator",
     "type": "fixed-params",
     "params": [

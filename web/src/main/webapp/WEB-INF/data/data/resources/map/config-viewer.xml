@@ -23,7 +23,7 @@
                        hidden="false"
                        opacity="1">
       <ows:Title>Bing Aerial</ows:Title>
-    </ows-context:Layer> -->
+    </ows-context:Layer>
     <ows-context:Layer name="{type=stamen,name=watercolor}"
                        group="Background layers"
                        hidden="true"
@@ -42,7 +42,7 @@
                        opacity="1">
       <ows:Title>Stamen Terrain</ows:Title>
     </ows-context:Layer>
-
+    -->
     <!--
     Example for TMS:
 

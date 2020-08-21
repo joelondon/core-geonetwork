@@ -254,7 +254,6 @@
                 map.set('sizePromise', newPromise);
               }
             }
-
             // layers: if defined a context file ignore layers
             if (!config.context && config.layers && config.layers.length) {
               config.layers.forEach(function(layerInfo) {

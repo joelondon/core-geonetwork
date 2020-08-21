@@ -46,6 +46,15 @@
                       ng-model="layer.opacity"/>
               </li>
 
+              <li class="" title="{{'hue' | translate}}"
+                  role="menuitem">
+                <label data-translate="">setHue</label>
+                <input class="" type="range"
+                       aria-label="{{'setHue' | translate}}"
+                      min="0" max="1" step="0.05"
+                      ng-model="layer.hue"/>
+              </li>
+	      
               <!--WPS-->
               <li class="" data-ng-if="process && process.length == 1"
                   role="menuitem">

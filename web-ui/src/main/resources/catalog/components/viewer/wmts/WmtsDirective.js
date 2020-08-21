@@ -55,7 +55,6 @@
               // Get WMS URL from attrs or try by getting the url layer property
               scope.url = attrs['url'] || scope.layer.get('url');
               scope.layerName = attrs['layerName'];
-
               scope.projections = [];
               scope.checkWmtsUrl().then(
                   function() {

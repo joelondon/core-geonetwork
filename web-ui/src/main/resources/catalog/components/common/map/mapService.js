@@ -1548,7 +1548,6 @@
           addWmtsFromScratch: function(map, url, name, createOnly, md) {
             var defer = $q.defer();
             var $this = this;
-
             if (!isLayerInMap(map, name, url)) {
               gnWmsQueue.add(url, name, map);
               gnOwsCapabilities.getWMTSCapabilities(url).then(function(capObj) {

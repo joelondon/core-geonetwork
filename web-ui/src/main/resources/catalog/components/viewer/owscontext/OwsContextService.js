@@ -611,7 +611,8 @@
         var server = layer.server[0];
         var res = server.onlineResource[0];
         var reT = /type\s*=\s*([^,|^}|^\s]*)/;
-        var reL = /name\s*=\s*([^,|^}|^\s]*)/;
+        // var reL = /name\s*=\s*([^,|^}|^\s]*)/;
+        var reL = /name\s*=\s*([^,|^}|]*)/;	      
 
         var createOnly = angular.isDefined(bgIdx) || angular.isDefined(index);
 
