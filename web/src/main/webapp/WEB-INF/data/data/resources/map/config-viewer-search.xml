@@ -6,14 +6,14 @@
     </ows:BoundingBox>
   </ows-context:General>
   <ows-context:ResourceList>
-    
+
     <ows-context:Layer queryable="false"
                        name="{type=wmts,name=Night 27700}"
                        hidden="false" opacity="1" group="Background layers">
       <ows:Title xmlns:ows="http://www.opengis.net/ows">Ordnance Survey Night</ows:Title>
       <ows-context:Server service="urn:ogc:serviceType:WMS">
         <ows-context:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    xlink:href="https://api.ordnancesurvey.co.uk/mapping_api/v1/service/wmts?key=4vmpYY1uFdimsAkyGwuaFbbHEyfvA5Gy" />
+                                    xlink:href="https://api.os.uk/maps/raster/v1/wmts?key=vmRzM4mAA1Ag0hkjGh1fhA2hNLEM6PYP" />
       </ows-context:Server>
       <ows-context:StyleList/>
     </ows-context:Layer>
@@ -24,7 +24,7 @@
       <ows:Title xmlns:ows="http://www.opengis.net/ows">Ordnance Survey Light</ows:Title>
       <ows-context:Server service="urn:ogc:serviceType:WMS">
         <ows-context:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    xlink:href="https://api.ordnancesurvey.co.uk/mapping_api/v1/service/wmts?key=4vmpYY1uFdimsAkyGwuaFbbHEyfvA5Gy" />
+                                    xlink:href="https://api.os.uk/maps/raster/v1/wmts?key=vmRzM4mAA1Ag0hkjGh1fhA2hNLEM6PYP" />
       </ows-context:Server>
       <ows-context:StyleList/>
     </ows-context:Layer>
@@ -35,7 +35,7 @@
       <ows:Title xmlns:ows="http://www.opengis.net/ows">Ordnance Survey Outdoor</ows:Title>
       <ows-context:Server service="urn:ogc:serviceType:WMS">
         <ows-context:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    xlink:href="https://api.ordnancesurvey.co.uk/mapping_api/v1/service/wmts?key=4vmpYY1uFdimsAkyGwuaFbbHEyfvA5Gy" />
+                                    xlink:href="https://api.os.uk/maps/raster/v1/wmts?key=vmRzM4mAA1Ag0hkjGh1fhA2hNLEM6PYP" />
       </ows-context:Server>
       <ows-context:StyleList/>
     </ows-context:Layer>
@@ -46,7 +46,7 @@
       <ows:Title xmlns:ows="http://www.opengis.net/ows">Ordnance Survey Road</ows:Title>
       <ows-context:Server service="urn:ogc:serviceType:WMS">
         <ows-context:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    xlink:href="https://api.ordnancesurvey.co.uk/mapping_api/v1/service/wmts?key=4vmpYY1uFdimsAkyGwuaFbbHEyfvA5Gy" />
+                                    xlink:href="https://api.os.uk/maps/raster/v1/wmts?key=vmRzM4mAA1Ag0hkjGh1fhA2hNLEM6PYP" />
       </ows-context:Server>
       <ows-context:StyleList/>
     </ows-context:Layer>
@@ -57,7 +57,7 @@
       <ows:Title xmlns:ows="http://www.opengis.net/ows">Ordnance Survey Leisure</ows:Title>
       <ows-context:Server service="urn:ogc:serviceType:WMS">
         <ows-context:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    xlink:href="https://api.ordnancesurvey.co.uk/mapping_api/v1/service/wmts?key=4vmpYY1uFdimsAkyGwuaFbbHEyfvA5Gy" />
+                                    xlink:href="https://api.os.uk/maps/raster/v1/wmts?key=vmRzM4mAA1Ag0hkjGh1fhA2hNLEM6PYP" />
       </ows-context:Server>
       <ows-context:StyleList/>
     </ows-context:Layer>
@@ -72,8 +72,7 @@
       <ows:Title>OpenStreetMap
       </ows:Title>
     </ows-context:Layer>
-    
+
 </ows-context:ResourceList>
 
 </ows-context:OWSContext>
-
